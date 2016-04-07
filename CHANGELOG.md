@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* New config setting `:libspec-whitelist` which makes it possible to create a seq of namespaces `clean-ns` shouldn't prune.  This is useful for libspecs which aren't used except through side-effecting loads.
+
 ## 2.2.0
 
 ### New features
